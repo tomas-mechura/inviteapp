@@ -1,0 +1,28 @@
+.finvite {  color: white;
+            background-color: #393946;
+            width: 50rem;
+            padding: 1.5rem;
+}
+.round  {   color:white;
+           padding: 1rem;
+           border-radius:0.4rem;
+           border: 0px;
+}
+#femails {  background-color: #292938;
+            border: 0px;
+            display: inline-block;
+            width: 35rem;
+}
+#femails.ng-invalid    { color: #FFAAAA; }
+#femails.ng-valid      { color: #AAFFAA; }
+
+#frole {    background-color: #494959;
+            width: 7rem;
+}
+.finvite .submit {  background-color: green;
+                    width: 7rem;
+}
+#msgs   { margin: 0.5rem 0; }
+.succ  { color: green; }
+.err { color:red; }
+        

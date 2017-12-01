@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Send invites</title>
+  <link rel="stylesheet" type="text/css" href="css/invite.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="js/controller.js"></script>
+</head>
+  <body>
+    <div data-ng-app="inviteApp" data-ng-controller="inviteCtrl" class="finvite">
+      <form name="inviteForm" data-ng-submit="sendInviteForm()">
+        <p> Invite people </p>
+        <input class="round text" type="text" id="femails" data-ng-required="true" data-ng-model="femails" data-ng-pattern="pattern" placeholder="E-mail address(es) comma separated">
+          <select class="round" id="frole" data-ng-model="frole" data-ng-options="key as value.optionText for  (key , value) in data.options"></select>
+        <input class="round submit" type="submit" value="Send Invites" id="fsubmit">
+        <div id="msgs" data-ng-bind="msgs"></div>
+      </div>
+    </form>
+  </body>
+</html>

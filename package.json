@@ -1,0 +1,20 @@
+{
+  "name": "invite",
+  "version": "1.0.0",
+  "description": "invite app",
+  "main": "invite.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "start": "node invite.js"
+  },
+  "author": "Tomas Mechura",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "winston": "^2.4.0"
+  }
+}
